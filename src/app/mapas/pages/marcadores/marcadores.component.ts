@@ -34,7 +34,7 @@ export class MarcadoresComponent implements AfterViewInit {
   @ViewChild('mapa') divMapa!: ElementRef; // Sirve para tomar un elemento HTML y usarlo como una propiedad común y corriente
   mapa!: mapboxgl.Map;
   zoomLevel: number = 15;
-  center: [number, number] = [-77.05104603384511, -12.001413613755023];
+  center: [number, number] = [-77.03054581854964, -12.045966929982415];
 
   //Arreglo de marcadores
   marcadores: MarcadorColor[] = [];
