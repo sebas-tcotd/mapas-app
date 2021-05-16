@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/mapas-app"
+  publish = "dist/mapasApp"
   command = "ng build --prod"
 [[redirects]]
   from = "/*"
